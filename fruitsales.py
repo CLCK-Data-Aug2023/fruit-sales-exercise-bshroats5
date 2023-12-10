@@ -9,3 +9,6 @@ data = {
    'Bananas': [35, 41]
 }
 
+# creating the dataframe
+df = pd.DataFrame(data)
+
