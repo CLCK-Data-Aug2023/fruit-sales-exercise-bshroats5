@@ -15,3 +15,7 @@ df = pd.DataFrame(data)
 # writing the dataframe to a CSV file
 df.to_csv('fruit.csv', index=False)
 
+# Making the CSV File
+Apples,Bananas
+2017 Sales,35
+2018 Sales,41
