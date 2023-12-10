@@ -12,3 +12,6 @@ data = {
 # creating the dataframe
 df = pd.DataFrame(data)
 
+# writing the dataframe to a CSV file
+df.to_csv('fruit.csv', index=False)
+
